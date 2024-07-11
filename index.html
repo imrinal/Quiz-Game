@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+  <h1>EduPedia <span style="color: white;">- Quiz Game</span></h1>
+  <div class="container">
+    <div class="question">Here is the question goes and am checking that?</div>
+    <div class="button">
+      <button class="option">Option 1</button>
+      <button class="option">Option 2</button>
+      <button class="option">Option 3</button>
+      <button class="option">Option 4</button>
+    </div>
+    <div class="control-button">
+      <button class="control">← Previous</button>
+      <button class="control">Next →</button>
+    </div>
+  </div>
+
+  <!-- Modal Structure -->
+  <div id="scoreModal" class="modal">
+    <div class="modal-content">
+      <h2>Quiz Completed!</h2>
+      <p id="scoreMessage"></p>
+      <button id="closeModal" class="modal-button">Close</button>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
