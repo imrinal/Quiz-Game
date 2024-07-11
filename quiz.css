@@ -4,6 +4,31 @@
   padding: 0;
   margin: 0;
 }
+
+/* The entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px;  
+  height: 12px; 
+}
+
+/* The scrollbar track */
+::-webkit-scrollbar-track {
+  background: #99047b;  
+  border-radius: 10px;  
+}
+
+/* The scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+  border: 2px solid #f278a4;
+  border-radius: 10px; 
+}
+
+/* The scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f278a4;  
+}
+
 body {
   display: flex;
   flex-direction: column;
